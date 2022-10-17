@@ -1,4 +1,6 @@
-# 🎉Hacktoberfest(2022) is back🎉
+# 🎉Hacktoberfest is back🎉
+
+## ✨🎯 Hacktoberfest 2022
 
 <b>(◔◡◔)&nbsp;<br><br>
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
