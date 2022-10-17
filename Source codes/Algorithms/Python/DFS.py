@@ -1,4 +1,4 @@
-#hardcoded adjacency list for storing the (undirected) graph
+#hardcoded adjacency list for storing the (Directed) graph
 
 graph = {
 'A' : ['B', 'C', 'D', 'E'],
