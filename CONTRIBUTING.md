@@ -1,5 +1,5 @@
 # ❓  What to contribute 
-- You can contribute any algorithm in any language
+- You can contribute algorithm in any language
 - You can also add data structure programs
 
 # ✨ Contribution guidelines
