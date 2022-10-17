@@ -1,6 +1,6 @@
-# 🎉Hacktoberfest 2022🎉
+# 🎉Hacktoberfest(2022) is back🎉
 
-<b>(◔◡◔)&nbsp;
+<b>(◔◡◔)&nbsp;<br><br>
 <img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg">
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github)](https://github.com/the-hack3rboy/Hacktoberfest-2022)
 [![contributions welcome](https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3)](https://github.com/the-hack3rboy/Hacktoberfest-2022)
@@ -22,11 +22,11 @@
 - Clone on your local machine
 
 ```
-git clone https://github.com/CODING-Enthusiast9857/Hacktoberfest2022-Open-For-Everyone.git
+git clone https://github.com/CODING-Enthusiast9857/Hacktoberfest22-Contribute-DSA.git
 ```
 - Navigate to project directory.
 ```
-cd Hacktoberfest2022-Open-For-Everyone
+cd Hacktoberfest22-Contribute-DSA
 ```
 
 - Create a new Branch
@@ -69,7 +69,8 @@ git push origin my-new-branch
   - For the open source community engagement
 
 # 📝 Licensed by
-<img src="https://img.shields.io/github/license/payloadbox/xss-payload-list">
+##### GNU GENERAL PUBLIC LICENSE 
+Version 3, 29 June 2007
 
 # 👸 Created by
 Created with &#129293; by <a href="https://github.com/CODING-Enthusiast9857" target="_blank">Madhavi Sonawane.</a>
