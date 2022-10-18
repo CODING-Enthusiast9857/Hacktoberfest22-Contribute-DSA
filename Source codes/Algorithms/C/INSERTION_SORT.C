@@ -1,43 +1,36 @@
-#include<stdio.h>
-#include<conio.h>
-void insertion(int a[],int n);
-void main()
+#include <math.h>
+#include <stdio.h>
+
+void insertionSort(int arr[], int n)
 {
-	int a[10],i,n;
-	clrscr();
-	printf("Enter array size:\t");
-	scanf("%d",&n);
-	printf("Enter array elements:\n");
-	for(i=0;i<n;i++)
-	{
-		scanf("%d",&a[i]);
-	}
-	printf("Array elements are:\n");
-	for(i=0;i<n;i++)
-	{
-		printf("%d\t",a[i]);
-	}
-	insertion(a,n);
-	printf("\nSorted elements are:\n");
-	for(i=0;i<n;i++)
-	{
-		printf("%d\t",a[i]);
-	}
-	getch();
+    int i, key, j;
+    for (i = 1; i < n; i++) {
+        key = arr[i];
+        j = i - 1;
+
+        while (j >= 0 && arr[j] > key) {
+            arr[j + 1] = arr[j];
+            j = j - 1;
+        }
+        arr[j + 1] = key;
+    }
 }
-void insertion(int a[],int n)
+ 
+void printArray(int arr[], int n)
 {
-	int i,j,s;
-	for(i=1;i<n;i++)
-	{
-		s=a[i];
-		for(j=i-1;j>=0 && s<a[j];j--)
-		{
-			if(s<a[j])
-			{
-				a[j+1]=a[j];
-			}
-		}
-		a[j+1]=s;
-	}
+    int i;
+    for (i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
+}
+ 
+int main()
+{
+    int arr[] = { 12, 11, 13, 5, 6 };
+    int n = sizeof(arr) / sizeof(arr[0]);
+ 
+    insertionSort(arr, n);
+    printArray(arr, n);
+ 
+    return 0;
 }
