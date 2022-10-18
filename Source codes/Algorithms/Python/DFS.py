@@ -38,3 +38,5 @@ def DFS(G, startNode):
         #add any unmarked adjacent nodes to stack
         for x in G[node]:
             stack.append(x)
+            
+DFS(graph,'B')            
