@@ -40,4 +40,4 @@ def BFS(G, startNode):
         for x in G[node]:
             queue.append(x)
 
-
+BFS(graph,'C')
