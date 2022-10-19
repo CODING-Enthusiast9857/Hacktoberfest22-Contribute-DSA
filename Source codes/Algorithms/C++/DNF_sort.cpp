@@ -21,7 +21,7 @@ void dnfsort(int arr[], int n){
 
     while(mid<=high){
         if(arr[mid]==0){
-            swap(arr,low,,mid)
+            swap(arr,low,mid);
             low++;
             mid++;
         }
