@@ -50,3 +50,14 @@ int main(){
         cout<<arr[i];
     }
 }
+
+->test cases
+Input: {0, 1, 2, 0, 1, 2}
+Output: {0, 0, 1, 1, 2, 2}
+
+Input: {0, 1, 1, 0, 1, 2, 1, 2, 0, 0, 0, 1}
+Output: {0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2}
+
+--------------------------------------------------------
+Time Complexity: O(n), Only nonnested traversals of the array are needed.
+Space Complexity: O(1)
