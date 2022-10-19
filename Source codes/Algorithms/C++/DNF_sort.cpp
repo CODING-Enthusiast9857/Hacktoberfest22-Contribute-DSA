@@ -1,3 +1,4 @@
+//Dutch National Flag
 //dnf_sort is also called 0,1,2_sort since it can only sort arrays consisting only of 0s, 1s and 2s  elements
 //time complexity - O(n)
 //method:-
@@ -46,6 +47,4 @@ int main(){
     for(int i=0;i<n;i++){
         cout<<arr[i];
     }
-
-
 }
