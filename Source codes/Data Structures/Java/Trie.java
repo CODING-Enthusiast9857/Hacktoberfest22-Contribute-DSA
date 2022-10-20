@@ -52,4 +52,14 @@ class Trie {
 		}
 		return true;
 	}
+	
+	public static void main(String[] args) {
+		String word = "Trie";
+		Trie trie = new Trie();
+		trie.insert(word);
+		boolean wordFound = trie.search(word);
+		System.out.println(wordFound); // True
+		boolean prefixFound = trie.startsWith("Tr");
+		System.out.println(prefixFound); // True
+	}
 }
