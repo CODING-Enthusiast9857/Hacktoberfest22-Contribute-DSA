@@ -23,9 +23,11 @@ int findSecondLargest(int *input, int n)
 int main()
 {
 		int size;
+		cout<<"Enter no. of elements : ";
 		cin >> size;
 		int *input = new int[size];
 
+		cout<<"Enter elements : ";
 		for (int i = 0; i < size; i++)
 		{
 			cin >> input[i];
