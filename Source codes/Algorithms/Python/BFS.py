@@ -32,7 +32,7 @@ def BFS(G, startNode):
         node = queue.pop(0) #queue pops from beginning of structure
 
         #check if node is not marked yet
-        if(node not in markedSet):
+        if node not in markedSet:
             markedSet.add(node) #mark node
             print(node) #process node
         
