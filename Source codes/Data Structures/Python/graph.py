@@ -33,3 +33,22 @@ class Graph:
         except KeyError:
             return False
         
+g = Graph()
+g.add_node(10)
+g.add_node(20)
+g.add_node(30)
+g.add_node(40)
+g.add_node(50)
+g.add_edge(10, 20)
+g.add_edge(20, 30)
+g.add_edge(20, 40)
+g.add_edge(30, 40)
+g.add_edge(30, 50)
+g.add_edge(40, 50)
+g.print_graph()
+g.delete_edge(20, 30)
+g.print_graph()
+g.delete_node(30)
+g.print_graph()
+print(g.search(30))
+print(g.search_edge(20, 30))
