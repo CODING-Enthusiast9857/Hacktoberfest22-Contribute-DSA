@@ -6,7 +6,7 @@ for i in range(n):
 print("List elements are :")
 for j in l1:
     print(j)
-    
+  
 print("Accessing element from the list by using indexing")
 print(l1[1]) 
 print(l1[2])
