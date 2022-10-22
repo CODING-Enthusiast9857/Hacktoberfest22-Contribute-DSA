@@ -13,3 +13,5 @@ var twoSum = function (nums, target) {
     map.set(number, i);
   }
 };
+
+twoSum();
