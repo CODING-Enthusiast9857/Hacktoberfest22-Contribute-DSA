@@ -1,7 +1,7 @@
 // Circular Linked List:  The circular linked list is the collection of nodes in which tail node also point back to head node.
  
   
-  public class CreateList {  
+  public class CircularLL {  
     //Represents the node of list.  
     public class Node{  
         int data;  
@@ -54,7 +54,7 @@
     }  
   
     public static void main(String[] args) {  
-        CreateList cl = new CreateList();  
+        CircularLL cl = new CircularLL();  
         //Adds data to the list  
         cl.add(1);  
         cl.add(2);  
