@@ -12,6 +12,7 @@ public class Soduku_Solver {
                 {0, 0, 5, 2, 0, 6, 3, 0, 0}
 
         };
+        System.out.println(solve(board));
     }
     static boolean solve(int[][] board) {
         // Look for the next unfilled cell.
