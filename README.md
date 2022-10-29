@@ -10,7 +10,8 @@
 [![Open Source Love](https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green)](https://github.com/the-hack3rboy/Hacktoberfest-2022) 
 </b>
 <br>
-<img src="https://github.com/CODING-Enthusiast9857/It-is-For-Everyone/blob/main/Hacktoberfest.png" alt="Hacktoberfest2022" width=100%>
+<img src="https://github.com/CODING-Enthusiast9857/Hacktoberfest22-Contribute-DSA/blob/main/Hacktoberfest.png" alt="Hacktoberfest2022" width=100%>
+[![@codingenthusiast98's Holopin board](https://holopin.me/codingenthusiast98)](https://holopin.io/@codingenthusiast98)
 
 - Guys, as the name of repository suggests, this is an <b>open-source contribution</b> opportunity for everyone for [hacktoberfest](https://hacktoberfest.digitalocean.com/) 2022. 
 - So, you can add your code and pull your request. 
